@@ -122,6 +122,11 @@ const khageswar = {
 
 ---
 
+## ⌨️ Typing Speed
+
+![Typing Speed](https://img.shields.io/badge/Typing%20Speed-100%20WPM-blue?style=for-the-badge)
+![Accuracy](https://img.shields.io/badge/Accuracy-100%25-success?style=for-the-badge)
+
 <div align="center">
 
 ⭐ *If you like what I build, consider starring my repos!*
