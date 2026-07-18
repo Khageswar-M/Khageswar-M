@@ -134,3 +134,7 @@ const khageswar = {
 ![Visitor Count](https://komarev.com/ghpvc/?username=Khageswar-M&color=blueviolet&style=for-the-badge)
 
 </div>
+
+## 📄 Resume
+
+👉 [View My Resume](./resume/KhageswarMaharanaResumeOne.pdf)
