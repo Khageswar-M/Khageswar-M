@@ -82,7 +82,7 @@ const khageswar = {
  
 <div align="center">
 
-![GitHub Contribution Chart](https://ghchart.rshah.org/blue/Khageswar-M)
+![GitHub Contribution Chart](https://ghchart.rshah.org/github/Khageswar-M)
 
 </div>
 
