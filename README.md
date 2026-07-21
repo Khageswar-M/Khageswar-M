@@ -137,4 +137,4 @@ const khageswar = {
 
 ## 📄 Resume
 
-👉 [View My Resume](./resume/KhageswarMaharanaResumeOne.pdf)
+👉 [View My Resume](./resume/KhageswarMaharanaResume.pdf)
