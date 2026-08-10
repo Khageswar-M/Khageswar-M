@@ -1,0 +1,278 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[
+  top=0.4in,
+  bottom=0.4in,
+  left=0.5in,
+  right=0.5in
+]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\urlstyle{same}
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{-10pt}\rule{\linewidth}{0.35pt}]
+
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\setlist[itemize]{
+    leftmargin=15pt,
+    itemsep=1pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-0.1pt}
+  \textbf{#1} \hfill \textbf{#2}\\
+  \textit{#3} \hfill \textit{#4}\\[-2pt]
+}
+
+\newcommand{\projectHeading}[5]{%
+    \textbf{#1}
+    \;|\;
+    \href{#2}{\faGithub\ GitHub}
+    \;|\;
+    \href{#3}{\faVideo\ Demo}
+    \;|\;
+    \href{#4}{\faExternalLinkAlt\ Live}
+    \\[-1pt]
+    {\fontsize{8.5pt}{9.5pt}\selectfont\textit{#5}}%
+    \vspace{5pt}
+}
+
+\begin{document}
+
+%==================== HEADER ====================
+
+\begin{center}
+
+    {\LARGE \textbf{KHAGESWAR MAHARANA}}\\[2pt]
+
+    {\large \textbf{Java Full Stack Developer}}\\[3pt]
+
+    {\small
+    Bhubaneswar, Odisha, India
+    \;|\;
+    8260532020
+    \;|\;
+    \href{mailto:khageswarmaharana462@gmail.com}
+    {khageswarmaharana462@gmail.com}
+    \;|\;
+    \href{https://www.linkedin.com/in/khageswar}
+    {LinkedIn}
+    \;|\;
+    \href{https://github.com/Khageswar-M}
+    {GitHub}
+    }
+
+\end{center}
+
+
+%==================== SUMMARY ====================
+
+\section{PROFESSIONAL SUMMARY}
+
+\small
+Java Full Stack Developer with hands-on experience building scalable,
+secure, and production-style applications using Java 17/21, Spring Boot,
+Spring Security, JWT, REST APIs, React.js, MySQL, Redis, and Docker.
+Experienced in backend reliability and performance through transaction
+management, rate limiting, caching, API optimization, and JMeter load
+testing. Built and deployed full-stack systems on AWS using EC2, RDS,
+and S3. Solved 250+ Data Structures and Algorithms problems on LeetCode
+and earned the highest SGPA in 3 semesters.
+
+
+%==================== SKILLS ====================
+
+\section{TECHNICAL SKILLS}
+
+\small
+\textbf{Languages:}
+Java (17/21), JavaScript (ES6+)
+
+\textbf{Backend:}
+Spring Boot, Spring MVC, Spring Security, REST APIs, JWT,
+Microservices-style Architecture, Maven, JPA, Hibernate
+
+\textbf{Frontend:}
+React.js, Redux, React Native (Expo), HTML5, CSS3,
+Tailwind CSS, Bootstrap, Axios
+
+\textbf{Databases \& Performance:}
+MySQL, Redis, SQL Optimization, Indexing, Caching,
+Rate Limiting (Bucket4j), JMeter
+
+\textbf{Cloud \& DevOps:}
+AWS (EC2, RDS, S3), Docker, Git, GitHub
+
+\textbf{Testing \& Tools:}
+JUnit, Mockito, Postman
+
+
+%==================== EXPERIENCE ====================
+
+\section{EXPERIENCE}
+
+\resumeSubheading
+{Angodigital Technologies Pvt. Ltd.}
+{Oct 2025 -- Nov 2025}
+{Java Full Stack Engineer Intern}
+{Bangalore, ITPL -- Onsite}
+
+\begin{itemize}
+
+  \resumeItem{
+  Built a production-grade Authenticator Web App using React.js and
+  Spring Boot REST APIs, implementing secure authentication flows and
+  responsive Figma-based UI with Tailwind CSS.
+  }
+
+  \resumeItem{
+  Developed an Authenticator Mobile App using React Native (Expo),
+  applying efficient navigation and pagination patterns for smooth
+  multi-screen performance.
+  }
+
+  \resumeItem{
+  Contributed to a Spring Boot + MySQL system supporting real-time
+  purchases, exports, and inventory; improved data consistency with
+  \texttt{@Transactional} and reduced repeated database access through
+  caching.
+  }
+
+  \resumeItem{
+  Reduced SQL query execution time by approximately
+  \textbf{45\%} through indexing and query optimization.
+  }
+
+  \resumeItem{
+  Collaborated in Agile delivery using daily stand-ups, Rally sprint
+  tracking, GitHub feature branches, and pull requests in a
+  multi-developer codebase.
+  }
+
+\end{itemize}
+
+\vspace{4pt}
+
+%==================== PROJECTS ====================
+
+\section{PROJECTS}
+
+\projectHeading
+{NexusOps}
+{https://github.com/Khageswar-M/NexusOps}
+{https://your-demo-link.com}
+{https://your-live-link.com}
+{React.js, Spring Boot, MySQL, Spring Security, JWT, RBAC, AWS, Docker}
+
+\begin{itemize}
+
+  \resumeItem{
+  Built a full-stack team operations and workflow platform with secure
+  REST APIs, JWT authentication, and role-based access control (RBAC)
+  for granular permissions.
+  }
+
+  \resumeItem{
+  Implemented centralized exception handling, request validation,
+  protected routing, and clean frontend--backend API contracts to
+  improve reliability and maintainability.
+  }
+
+  \resumeItem{
+  Integrated Brevo for transactional notifications and deployed the
+  backend on AWS EC2, MySQL on AWS RDS, and assets on AWS S3 using
+  Dockerized services.
+  }
+
+\end{itemize}
+\vspace{4pt}
+
+
+\projectHeading
+{Ninety -- 90-Day Challenge Tracker}
+{https://github.com/Khageswar-M/Ninety}
+{https://your-demo-link.com}
+{https://your-live-link.com}
+{React Native (Expo), Spring Boot, MySQL, Redis, Bucket4j, OpenAI API, AWS, Docker}
+
+\begin{itemize}
+
+  \resumeItem{
+  Built a cross-platform challenge-tracking application with
+  OTP-based email verification, secure backend APIs, optimistic UI,
+  and an admin Control Room for monitoring users and system health.
+  }
+
+  \resumeItem{
+  Improved resilience during burst traffic using Redis caching and
+  Bucket4j rate limiting, reducing redundant database access.
+  }
+
+  \resumeItem{
+  Load-tested core APIs with JMeter to measure throughput, latency,
+  and error rates, documenting performance bottlenecks and benchmarks.
+  }
+
+  \resumeItem{
+  Integrated OpenAI API for AI coaching feedback and deployed
+  backend, MySQL, and assets using AWS EC2, RDS, S3, and Docker.
+  }
+
+\end{itemize}
+
+
+%==================== EDUCATION ====================
+
+\section{EDUCATION}
+
+\resumeSubheading
+{Aryan Institute of Engineering \& Technology, Bhubaneswar}
+{Nov 2022 -- 2026}
+{Bachelor of Technology in Computer Science}
+{CGPA: 8.56}
+
+
+%==================== ACHIEVEMENTS ====================
+
+\section{ACHIEVEMENTS}
+
+\begin{itemize}
+
+  \resumeItem{
+  Solved \textbf{250+ Data Structures and Algorithms problems}
+  on LeetCode.
+  }
+
+  \resumeItem{
+  Achieved the \textbf{highest SGPA in 3 semesters} with a strong
+  academic record and \textbf{zero backlogs}.
+  }
+
+  % \resumeItem{
+  % Created a professional technical profile with
+  % \textbf{100K+ impressions}, highlighting Java, Spring Boot,
+  % React.js, React Native, and MySQL expertise.
+  % }
+
+\end{itemize}
+
+\end{document}
