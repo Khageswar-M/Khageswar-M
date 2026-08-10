@@ -71,9 +71,10 @@ const khageswar = {
 
 | 🎯 Achievement | Details |
 |---|---|
-| 🥇 College Topper | **3 Times** — Aryan Institute of Engineering and Technology |
+| 🥇 Achivement | **3 Times Highest SGPA achiver** |
 | 🎓 CGPA | **8.5 / 10** |
-| 🧩 LeetCode | **200+ Problems Solved** |
+| 🏫 Academic Carrier| [All Semester Carrier](./academic/MyEnginerringCarrier.pdf)
+| 🧩 LeetCode | **250+ Problems Solved** |
 
 
 ---
@@ -105,7 +106,7 @@ const khageswar = {
 🏫 **Aryan Institute of Engineering and Technology**
 📍 Bhubaneswar, Odisha
 🎓 B.Tech | CGPA: **8.5**
-🏆 **3x Topper of the College**
+🏆 **Zero Backlogs**
 
 ---
 
@@ -138,3 +139,4 @@ const khageswar = {
 ## 📄 Resume
 
 👉 [View My Resume](./resume/khageswar_maharana_resume.pdf)
+
