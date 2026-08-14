@@ -1,13 +1,12 @@
 \documentclass[10pt,letterpaper]{article}
 
 \usepackage[
-  top=0.4in,
-  bottom=0.4in,
-  left=0.5in,
-  right=0.5in
+  top=0.3in,
+  bottom=0.3in,
+  left=0.45in,
+  right=0.45in
 ]{geometry}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -25,7 +24,7 @@
   {}
   [\vspace{-10pt}\rule{\linewidth}{0.35pt}]
 
-\titlespacing*{\section}{0pt}{7pt}{4pt}
+\titlespacing*{\section}{0pt}{5pt}{3pt}
 
 \setlist[itemize]{
     leftmargin=15pt,
@@ -53,7 +52,7 @@
     \href{#4}{\faExternalLinkAlt\ Live}
     \\[-1pt]
     {\fontsize{8.5pt}{9.5pt}\selectfont\textit{#5}}%
-    \vspace{5pt}
+    \vspace{2pt}
 }
 
 \begin{document}
@@ -62,9 +61,9 @@
 
 \begin{center}
 
-    {\LARGE \textbf{KHAGESWAR MAHARANA}}\\[2pt]
+    {\LARGE \textbf{KHAGESWAR MAHARANA}}\\[1pt]
 
-    {\large \textbf{Java Full Stack Developer}}\\[3pt]
+    {\large \textbf{Java Full Stack Developer}}\\[1pt]
 
     {\small
     Bhubaneswar, Odisha, India
@@ -89,7 +88,7 @@
 \section{PROFESSIONAL SUMMARY}
 
 \small
-I'm Khageswar Maharana, a Computer Science graduate passionate about Java Full Stack Development. I'm a disciplined \textbf{self learner} who follows a simple approach: \textbf{learn, then implement}. Instead of expensive courses, I use free, high-quality resources to grasp core concepts and apply them through hands on projects which keeps me a \textbf{fast, practical learner}.In my free time, I \textbf{design} user interfaces with \textbf{Penpot}, a \textbf{free} and \textbf{open source} tool, which sharpens my design sense and helps me build products that are both functional and intuitive.I believe \textbf{self driven}, practice backed learning delivers \textbf{faster}, more \textbf{lasting results}.
+Java Full Stack Developer with hands-on experience building \textbf{REST APIs}, \textbf{React.js}/\textbf{React Native} interfaces, and \textbf{Spring Boot} backends, including a completed Java Full Stack Engineering internship. Skilled in \textbf{full stack web and mobile development}, \textbf{database design}, \textbf{API integration}, and \textbf{Agile} collaboration. A disciplined, self-driven learner who studies concepts through free resources and applies them immediately through production-style projects. Also designs UI/UX using \textbf{Penpot}, an open-source tool, bringing a strong usability sense to development work.
 
 
 %==================== SKILLS ====================
@@ -98,24 +97,24 @@ I'm Khageswar Maharana, a Computer Science graduate passionate about Java Full S
 
 \small
 \textbf{Languages:}
-Java (17/21), JavaScript (ES6+)
+Java (17/21), JavaScript (ES6+), SQL
 
 \textbf{Backend:}
-Spring Boot, Spring MVC, Spring Security, REST APIs, JWT, Maven, JPA, Hibernate
+Spring Boot, Spring MVC, Spring Security, Spring Data JPA, REST APIs, Microservices, Maven, Hibernate
 
 \textbf{Frontend:}
 React.js, React Native (Expo SDK 54), Redux, HTML5, CSS3,
-Tailwind CSS, Bootstrap, Axios
+Tailwind CSS, Bootstrap, Axios, Responsive Web Design
 
 \textbf{Databases \& Performance:}
 MySQL, Redis, Caching,
-Rate Limiting (\textbf{Bucket4j}), JMeter
+Rate Limiting (Bucket4j), JMeter
 
 \textbf{Cloud \& DevOps:}
-AWS (EC2, RDS, S3), Docker, Git, GitHub
+AWS (EC2, RDS, S3), Docker, Git, GitHub, Version Control
 
-\textbf{Testing \& Tools:}
-JUnit, Mockito, Postman, Swagger, Ubuntu
+\textbf{Testing \& Practices:}
+JUnit, Mockito, Postman, Swagger, Unit Testing, Agile, SDLC, OOP, Ubuntu
 
 
 %==================== EXPERIENCE ====================
@@ -131,24 +130,24 @@ JUnit, Mockito, Postman, Swagger, Ubuntu
 \begin{itemize}
 
   \resumeItem{
-  Developed an \textbf{enterprise web application} from scratch as part of a team using\textbf{ ReactJS} and \textbf{GitHub} for collaborative development. Converted \textbf{Figma} designs into \textbf{responsive} user interfaces and implemented them as functional application screens.
+  Developed an \textbf{enterprise web application} from scratch as part of a team using \textbf{React.js} and \textbf{GitHub} for collaborative version control. Converted \textbf{Figma} designs into \textbf{responsive}, cross-browser user interfaces and implemented them as functional application screens.
   }
 
   \resumeItem{
-  Developed an Authenticator \textbf{mobile} application using\textbf{ React Native Expo}, including \textbf{file based} navigation and routing.
+  Built an Authenticator \textbf{mobile application} using \textbf{React Native (Expo)}, including \textbf{file-based routing} and navigation.
   }
 
   \resumeItem{
-  Contribute to backend development using \textbf{Spring Boot}, building \textbf{REST APIs} with API versioning and \textbf{JWT} authentication. \textbf{Optimized} MySQL operations using \textbf{indexes}, \textbf{stored procedures}, \textbf{triggers} and implemented \textbf{Redis caching} with \textbf{Docker} to reduce database calls.
+  Contributed to backend development using \textbf{Spring Boot}, building versioned \textbf{REST APIs} with \textbf{JWT authentication}. Optimized \textbf{MySQL} operations using indexes, stored procedures, and triggers, and implemented \textbf{Redis caching} with \textbf{Docker} to reduce redundant database calls.
   }
 
   \resumeItem{
-  Worked with the team following the \textbf{Agile} Software Development methodology through out the development process using \textbf{Jira}.
+  Collaborated with the team following \textbf{Agile/Scrum} software development methodology throughout the development lifecycle, tracking work using \textbf{Jira}.
   }
 
 \end{itemize}
 
-\vspace{4pt}
+\vspace{2pt}
 
 %==================== PROJECTS ====================
 
@@ -159,54 +158,53 @@ JUnit, Mockito, Postman, Swagger, Ubuntu
 {https://github.com/Khageswar-M/NexusOps}
 {https://your-demo-link.com}
 {https://your-live-link.com}
-{\textbf{React.js}, \textbf{Tailwind CSS}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Spring Security}, \textbf{Vercel}, \textbf{Render}, \textbf{Supabase}, \textbf{Docker}}, \textbf{Ubuntu}
+{\textbf{React.js}, \textbf{Tailwind CSS}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Spring Security}, \textbf{Docker}, \textbf{Vercel}, \textbf{Render}, \textbf{Supabase}, Ubuntu}
 
 \begin{itemize}
 
   \resumeItem{
-  NexusOps is a full stack team management application with \textbf{role based access control}, allowing admins to assign tasks and monitor employee work status through cool graph based \textbf{dashboard}.
+  Built a full stack \textbf{team management application} with \textbf{role-based access control (RBAC)}, enabling admins to assign tasks and monitor employee work status through a graph-based analytics \textbf{dashboard}.
   }
 
   \resumeItem{
-  Build a \textbf{responsive} UI using Reac JS and \textbf{Tailwind CSS}, with a clean interface based on \textbf{Google Material icons}.
+  Built a \textbf{responsive UI} using \textbf{React.js} and \textbf{Tailwind CSS}, with a clean interface based on \textbf{Google Material icons}.
   }
 
   \resumeItem{
-  Developed the backend Spring Boot \textbf{7-layer} architecture - \textbf{Controller}, \textbf{DTO}, \textbf{Service}, \textbf{Repository}, \textbf{Entity}, \textbf{Configuration}, and \textbf{Exception} with versioned and documented \textbf{REST APIs} with \textbf{OTP} based authentication and \textbf{JWT} based authorization.
+  Developed the backend using a \textbf{Spring Boot} 7-layer architecture -- \textbf{Controller}, \textbf{DTO}, \textbf{Service}, \textbf{Repository}, \textbf{Entity}, \textbf{Configuration}, and \textbf{Exception Handling} -- with versioned, documented \textbf{REST APIs}, \textbf{OTP}-based authentication, and \textbf{JWT}-based authorization.
   }
 
   \resumeItem{
-  Implemented \textbf{Redis Caching} with \textbf{Docker} to reduce frequent database calls and integrated \textbf{Brevo} for email messaging.
+  Implemented \textbf{Redis caching} with \textbf{Docker} to reduce frequent database calls and integrated \textbf{Brevo} for transactional email messaging.
   }
-
 
 \end{itemize}
-\vspace{4pt}
+\vspace{2pt}
 
 
 \projectHeading
-{Ninety Productive Day Tracker}
+{Ninety -- Productive Day Tracker}
 {https://github.com/Khageswar-M/Ninety}
 {https://your-demo-link.com}
 {https://your-live-link.com}
-{\textbf{React Native (Expo)},\textbf{ Spring Boot}, \textbf{MySQL}, \textbf{Redis}, \textbf{OpenAI API}, \textbf{Docker}}, \textbf{Ubuntu}
+{\textbf{React Native (Expo)}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Redis}, \textbf{OpenAI API}, \textbf{Docker}, Ubuntu}
 
 \begin{itemize}
 
   \resumeItem{
-  Ninety Productive Day Tracker is a \textbf{cross platform} mobile application built with React Native Expo \textbf{SDK 54}, designed around a 90-day productivity challenge.
+  Built a \textbf{cross-platform mobile application} with \textbf{React Native (Expo SDK 54)}, designed around a 90-day productivity challenge tracker.
   }
 
   \resumeItem{
-  Designed the application UI \textbf{independently} using \textbf{Penpot} and implemented it as a responsive, dynamic \textbf{mobile interface}.
+  Independently designed the application \textbf{UI/UX} using \textbf{Penpot} and implemented it as a \textbf{responsive, dynamic mobile interface}.
   }
 
   \resumeItem{
-  Developed the backend using Spring Boot and a 7-layer architecture, implementing \textbf{JWT authorization}, \textbf{OTP verification}, versioned \textbf{REST APIs} with \textbf{Swagger} documentation, and \textbf{Bucket4j} for \textbf{rate} \textbf{limiting}.
+  Developed the backend using \textbf{Spring Boot} with a 7-layer architecture, implementing \textbf{JWT authorization}, \textbf{OTP verification}, versioned \textbf{REST APIs} with \textbf{Swagger} documentation, and \textbf{Bucket4j} for \textbf{API rate limiting}.
   }
 
   \resumeItem{
-  Integrated \textbf{Resend} for \textbf{email messaging} and \textbf{Redis caching} with \textbf{Docker} to reduce unnecessary database calls. Implemented \textbf{Expo Push Notification} and an \textbf{OpenAI LLM} API-based daily review system that provides productivity suggestions and \textbf{motivational quotes} to help users stay \textbf{consistent} wit their \textbf{goals}.
+  Integrated \textbf{Resend} for transactional email messaging and \textbf{Redis caching} with \textbf{Docker} to reduce unnecessary database calls. Implemented \textbf{Expo Push Notifications} and an \textbf{OpenAI LLM}-based daily review system that generates productivity insights and motivational feedback to help users stay consistent with their goals.
   }
 
 \end{itemize}
@@ -229,8 +227,8 @@ JUnit, Mockito, Postman, Swagger, Ubuntu
 
 \begin{itemize}
 
-  \resumeItem\resumeItem{
-  Solved \textbf{250+ Data Structures and Algorithms problems}
+  \resumeItem{
+  Solved \textbf{250+ Data Structures and Algorithms (DSA) problems}
   on \textbf{LeetCode}.  \href{https://leetcode.com/u/ok3/}{\textbf{[Profile]}}
 }
 
@@ -241,15 +239,9 @@ JUnit, Mockito, Postman, Swagger, Ubuntu
 }
 
   \resumeItem{
-  Attended international conference on \textbf{Computational Intelligence Communication and Data Analytics}.
+  Attended international conference on \textbf{Computational Intelligence, Communication and Data Analytics}.
   \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/cirtification/ComputationalIntelligence.jpg}{\textbf{[Certificate]}}
 }
-
-  % \resumeItem{
-  % Created a professional technical profile with
-  % \textbf{100K+ impressions}, highlighting Java, Spring Boot,
-  % React.js, React Native, and MySQL expertise.
-  % }
 
 \end{itemize}
 
