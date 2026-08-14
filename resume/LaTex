@@ -89,14 +89,7 @@
 \section{PROFESSIONAL SUMMARY}
 
 \small
-Java Full Stack Developer with hands-on experience building scalable,
-secure, and production-style applications using Java 17/21, Spring Boot,
-Spring Security, JWT, REST APIs, React.js, MySQL, Redis, and Docker.
-Experienced in backend reliability and performance through transaction
-management, rate limiting, caching, API optimization, and JMeter load
-testing. Built and deployed full-stack systems on AWS using EC2, RDS,
-and S3. Solved 250+ Data Structures and Algorithms problems on LeetCode
-and earned the highest SGPA in 3 semesters.
+I'm Khageswar Maharana, a Computer Science graduate passionate about Java Full Stack Development. I'm a disciplined \textbf{self learner} who follows a simple approach: \textbf{learn, then implement}. Instead of expensive courses, I use free, high-quality resources to grasp core concepts and apply them through hands on projects which keeps me a \textbf{fast, practical learner}.In my free time, I \textbf{design} user interfaces with \textbf{Penpot}, a \textbf{free} and \textbf{open source} tool, which sharpens my design sense and helps me build products that are both functional and intuitive.I believe \textbf{self driven}, practice backed learning delivers \textbf{faster}, more \textbf{lasting results}.
 
 
 %==================== SKILLS ====================
@@ -108,22 +101,21 @@ and earned the highest SGPA in 3 semesters.
 Java (17/21), JavaScript (ES6+)
 
 \textbf{Backend:}
-Spring Boot, Spring MVC, Spring Security, REST APIs, JWT,
-Microservices-style Architecture, Maven, JPA, Hibernate
+Spring Boot, Spring MVC, Spring Security, REST APIs, JWT, Maven, JPA, Hibernate
 
 \textbf{Frontend:}
-React.js, Redux, React Native (Expo), HTML5, CSS3,
+React.js, React Native (Expo SDK 54), Redux, HTML5, CSS3,
 Tailwind CSS, Bootstrap, Axios
 
 \textbf{Databases \& Performance:}
-MySQL, Redis, SQL Optimization, Indexing, Caching,
-Rate Limiting (Bucket4j), JMeter
+MySQL, Redis, Caching,
+Rate Limiting (\textbf{Bucket4j}), JMeter
 
 \textbf{Cloud \& DevOps:}
 AWS (EC2, RDS, S3), Docker, Git, GitHub
 
 \textbf{Testing \& Tools:}
-JUnit, Mockito, Postman
+JUnit, Mockito, Postman, Swagger, Ubuntu
 
 
 %==================== EXPERIENCE ====================
@@ -131,7 +123,7 @@ JUnit, Mockito, Postman
 \section{EXPERIENCE}
 
 \resumeSubheading
-{Angodigital Technologies Pvt. Ltd.}
+{\href{https://www.angodigitaltech.com/}{Angodigital Technologies Pvt. Ltd.}}
 {Oct 2025 -- Nov 2025}
 {Java Full Stack Engineer Intern}
 {Bangalore, ITPL -- Onsite}
@@ -139,33 +131,19 @@ JUnit, Mockito, Postman
 \begin{itemize}
 
   \resumeItem{
-  Built a production-grade Authenticator Web App using React.js and
-  Spring Boot REST APIs, implementing secure authentication flows and
-  responsive Figma-based UI with Tailwind CSS.
+  Developed an \textbf{enterprise web application} from scratch as part of a team using\textbf{ ReactJS} and \textbf{GitHub} for collaborative development. Converted \textbf{Figma} designs into \textbf{responsive} user interfaces and implemented them as functional application screens.
   }
 
   \resumeItem{
-  Developed an Authenticator Mobile App using React Native (Expo),
-  applying efficient navigation and pagination patterns for smooth
-  multi-screen performance.
+  Developed an Authenticator \textbf{mobile} application using\textbf{ React Native Expo}, including \textbf{file based} navigation and routing.
   }
 
   \resumeItem{
-  Contributed to a Spring Boot + MySQL system supporting real-time
-  purchases, exports, and inventory; improved data consistency with
-  \texttt{@Transactional} and reduced repeated database access through
-  caching.
+  Contribute to backend development using \textbf{Spring Boot}, building \textbf{REST APIs} with API versioning and \textbf{JWT} authentication. \textbf{Optimized} MySQL operations using \textbf{indexes}, \textbf{stored procedures}, \textbf{triggers} and implemented \textbf{Redis caching} with \textbf{Docker} to reduce database calls.
   }
 
   \resumeItem{
-  Reduced SQL query execution time by approximately
-  \textbf{45\%} through indexing and query optimization.
-  }
-
-  \resumeItem{
-  Collaborated in Agile delivery using daily stand-ups, Rally sprint
-  tracking, GitHub feature branches, and pull requests in a
-  multi-developer codebase.
+  Worked with the team following the \textbf{Agile} Software Development methodology through out the development process using \textbf{Jira}.
   }
 
 \end{itemize}
@@ -181,60 +159,54 @@ JUnit, Mockito, Postman
 {https://github.com/Khageswar-M/NexusOps}
 {https://your-demo-link.com}
 {https://your-live-link.com}
-{React.js, Spring Boot, MySQL, Spring Security, JWT, RBAC, AWS, Docker}
+{\textbf{React.js}, \textbf{Tailwind CSS}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Spring Security}, \textbf{Vercel}, \textbf{Render}, \textbf{Supabase}, \textbf{Docker}}, \textbf{Ubuntu}
 
 \begin{itemize}
 
   \resumeItem{
-  Built a full-stack team operations and workflow platform with secure
-  REST APIs, JWT authentication, and role-based access control (RBAC)
-  for granular permissions.
+  NexusOps is a full stack team management application with \textbf{role based access control}, allowing admins to assign tasks and monitor employee work status through cool graph based \textbf{dashboard}.
   }
 
   \resumeItem{
-  Implemented centralized exception handling, request validation,
-  protected routing, and clean frontend--backend API contracts to
-  improve reliability and maintainability.
+  Build a \textbf{responsive} UI using Reac JS and \textbf{Tailwind CSS}, with a clean interface based on \textbf{Google Material icons}.
   }
 
   \resumeItem{
-  Integrated Brevo for transactional notifications and deployed the
-  backend on AWS EC2, MySQL on AWS RDS, and assets on AWS S3 using
-  Dockerized services.
+  Developed the backend Spring Boot \textbf{7-layer} architecture - \textbf{Controller}, \textbf{DTO}, \textbf{Service}, \textbf{Repository}, \textbf{Entity}, \textbf{Configuration}, and \textbf{Exception} with versioned and documented \textbf{REST APIs} with \textbf{OTP} based authentication and \textbf{JWT} based authorization.
   }
+
+  \resumeItem{
+  Implemented \textbf{Redis Caching} with \textbf{Docker} to reduce frequent database calls and integrated \textbf{Brevo} for email messaging.
+  }
+
 
 \end{itemize}
 \vspace{4pt}
 
 
 \projectHeading
-{Ninety -- 90-Day Challenge Tracker}
+{Ninety Productive Day Tracker}
 {https://github.com/Khageswar-M/Ninety}
 {https://your-demo-link.com}
 {https://your-live-link.com}
-{React Native (Expo), Spring Boot, MySQL, Redis, Bucket4j, OpenAI API, AWS, Docker}
+{\textbf{React Native (Expo)},\textbf{ Spring Boot}, \textbf{MySQL}, \textbf{Redis}, \textbf{OpenAI API}, \textbf{Docker}}, \textbf{Ubuntu}
 
 \begin{itemize}
 
   \resumeItem{
-  Built a cross-platform challenge-tracking application with
-  OTP-based email verification, secure backend APIs, optimistic UI,
-  and an admin Control Room for monitoring users and system health.
+  Ninety Productive Day Tracker is a \textbf{cross platform} mobile application built with React Native Expo \textbf{SDK 54}, designed around a 90-day productivity challenge.
   }
 
   \resumeItem{
-  Improved resilience during burst traffic using Redis caching and
-  Bucket4j rate limiting, reducing redundant database access.
+  Designed the application UI \textbf{independently} using \textbf{Penpot} and implemented it as a responsive, dynamic \textbf{mobile interface}.
   }
 
   \resumeItem{
-  Load-tested core APIs with JMeter to measure throughput, latency,
-  and error rates, documenting performance bottlenecks and benchmarks.
+  Developed the backend using Spring Boot and a 7-layer architecture, implementing \textbf{JWT authorization}, \textbf{OTP verification}, versioned \textbf{REST APIs} with \textbf{Swagger} documentation, and \textbf{Bucket4j} for \textbf{rate} \textbf{limiting}.
   }
 
   \resumeItem{
-  Integrated OpenAI API for AI coaching feedback and deployed
-  backend, MySQL, and assets using AWS EC2, RDS, S3, and Docker.
+  Integrated \textbf{Resend} for \textbf{email messaging} and \textbf{Redis caching} with \textbf{Docker} to reduce unnecessary database calls. Implemented \textbf{Expo Push Notification} and an \textbf{OpenAI LLM} API-based daily review system that provides productivity suggestions and \textbf{motivational quotes} to help users stay \textbf{consistent} wit their \textbf{goals}.
   }
 
 \end{itemize}
@@ -246,9 +218,9 @@ JUnit, Mockito, Postman
 
 \resumeSubheading
 {Aryan Institute of Engineering \& Technology, Bhubaneswar}
-{Nov 2022 -- 2026}
+{Nov 2022 -- May 2026}
 {Bachelor of Technology in Computer Science}
-{CGPA: 8.56}
+{\textbf{CGPA: 8.56}}
 
 
 %==================== ACHIEVEMENTS ====================
@@ -257,15 +229,21 @@ JUnit, Mockito, Postman
 
 \begin{itemize}
 
-  \resumeItem{
+  \resumeItem\resumeItem{
   Solved \textbf{250+ Data Structures and Algorithms problems}
-  on LeetCode.
-  }
+  on \textbf{LeetCode}.  \href{https://leetcode.com/u/ok3/}{\textbf{[Profile]}}
+}
 
   \resumeItem{
   Achieved the \textbf{highest SGPA in 3 semesters} with a strong
   academic record and \textbf{zero backlogs}.
-  }
+  \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier.pdf}{\textbf{[Academic Records]}}
+}
+
+  \resumeItem{
+  Attended international conference on \textbf{Computational Intelligence Communication and Data Analytics}.
+  \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/cirtification/ComputationalIntelligence.jpg}{\textbf{[Certificate]}}
+}
 
   % \resumeItem{
   % Created a professional technical profile with
