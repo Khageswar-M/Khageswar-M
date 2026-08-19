@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Khageswar Maharana
+# Hi, I'm Khageswar Maharana
 
 ### Full Stack Developer | Problem Solver | Code Enthusiast
 
