@@ -139,5 +139,5 @@ const khageswar = {
 
 ## 📄 Resume
 
-👉 [View My Resume](./resume/khageswar_maharana_resume.pdf)
+👉 [View My Resume](https://github.com/Khageswar-M/Khageswar-M/blob/main/resume/Khageswar-Maharana-JavaDev-Resume.pdf)
 
