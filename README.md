@@ -125,8 +125,9 @@ const khageswar = {
 
 ## ⌨️ Typing Speed
 
-![Typing Speed](https://img.shields.io/badge/Typing%20Speed-100%20WPM-blue?style=for-the-badge)
-![Accuracy](https://img.shields.io/badge/Accuracy-100%25-success?style=for-the-badge)
+![Typing Speed](https://img.shields.io/badge/Typing%20Speed-107%20WPM-blue?style=for-the-badge)
+![Accuracy](https://img.shields.io/badge/Accuracy-96%25-success?style=for-the-badge)
+![Alt text](https://github.com/Khageswar-M/Khageswar-M/blob/main/assets/MonkeyTypeTest.png)
 
 <div align="center">
 
