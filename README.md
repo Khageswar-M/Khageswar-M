@@ -19,7 +19,7 @@ const khageswar = {
   name: "Khageswar Maharana",
   education: "B.Tech @ Aryan Institute of Engineering & Technology, Bhubaneswar",
   cgpa: 8.5,
-  achievements: ["3x College Topper 🏆", "200+ LeetCode Problems Solved 🧩"],
+  achievements: ["3x highest SGPA achiever 🏆", "200+ LeetCode Problems Solved 🧩"],
   passion: ["Building cool apps", "Clean Code", "DSA", "System Design"],
   currentlyBuilding: "Ninety — a 90-day challenge tracker app 🔥",
   currentlyLearning: "Always something new...",
