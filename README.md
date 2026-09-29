@@ -5,28 +5,26 @@
 ### Full Stack Developer | Problem Solver | Code Enthusiast
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ok3/)
-[![College Topper](https://img.shields.io/badge/College_Topper-3x_🏆-gold?style=for-the-badge)](https://aryanengg.ac.in/)
+[![Academic Performer](https://img.shields.io/badge/Accademic_Performer-3x_🏆-gold?style=for-the-badge)](https://aryanengg.ac.in/)
 [![CGPA](https://img.shields.io/badge/CGPA-8.5-brightgreen?style=for-the-badge)](https://aryanengg.ac.in/)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## 🔗 Connect With Me
 
-```javascript
-const khageswar = {
-  name: "Khageswar Maharana",
-  education: "B.Tech @ Aryan Institute of Engineering & Technology, Bhubaneswar",
-  cgpa: 8.5,
-  achievements: ["3x highest SGPA achiever 🏆", "200+ LeetCode Problems Solved 🧩"],
-  passion: ["Building cool apps", "Clean Code", "DSA", "System Design"],
-  currentlyBuilding: "Ninety — a 90-day challenge tracker app 🔥",
-  currentlyLearning: "Always something new...",
-};
-```
+<a href="https://www.linkedin.com/in/khageswar-maharana-802a02349/" target="_blank">
+  <img src="https://img.icons8.com/color/48/linkedin.png" width="40" alt="LinkedIn"/>
+</a>
 
 ---
+
+## 📄 Resume
+
+<a href="https://github.com/Khageswar-M/Khageswar-M/blob/main/resume/K-Maharana-1-1-3-Java-Fullstack-CV.pdf">
+  <img src="https://img.icons8.com/color/48/000000/pdf-2.png" width="35" alt="View Resume"/>
+</a>
 
 ## 🚀 Tech Stack
 
@@ -137,7 +135,5 @@ const khageswar = {
 
 </div>
 
-## 📄 Resume
 
-👉 [View My Resume](https://github.com/Khageswar-M/Khageswar-M/blob/main/resume/Khageswar-Maharana-JavaDev-Resume.pdf)
 
