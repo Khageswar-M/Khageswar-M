@@ -22,7 +22,7 @@
 
 ## 📄 Resume
 
-<a href="https://github.com/Khageswar-M/Khageswar-M/blob/main/resume/K-Maharana-1-1-3-Java-Fullstack-CV.pdf">
+<a href="https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier_compressed.pdf">
   <img src="https://img.icons8.com/color/48/000000/pdf-2.png" width="35" alt="View Resume"/>
 </a>
 
