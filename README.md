@@ -1,139 +1,73 @@
-<div align="center">
+# Khageswar Maharana
 
-# Hi, I'm Khageswar Maharana
+**Full Stack Developer** · Java, Spring Boot, React · Bhubaneswar, Odisha, India
 
-### Full Stack Developer | Problem Solver | Code Enthusiast
+I build backend-heavy web and mobile applications with Java and Spring Boot, paired with React and React Native frontends. I care about clean APIs, sensible caching, and measurable performance. I'm currently looking for fresher / entry-level developer roles.
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ok3/)
-[![Academic Performer](https://img.shields.io/badge/Accademic_Performer-3x_🏆-gold?style=for-the-badge)](https://aryanengg.ac.in/)
-[![CGPA](https://img.shields.io/badge/CGPA-8.5-brightgreen?style=for-the-badge)](https://aryanengg.ac.in/)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/khageswar-maharana-802a02349/) · [Email](mailto:khageswarmaharana462@gmail.com) · [LeetCode](https://leetcode.com/u/ok3/) · [Resume](https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier_compressed.pdf)
 
 ---
 
-## 🔗 Connect With Me
+## Experience
 
-<a href="https://www.linkedin.com/in/khageswar-maharana-802a02349/" target="_blank">
-  <img src="https://img.icons8.com/color/48/linkedin.png" width="40" alt="LinkedIn"/>
-</a>
+**Full Stack Developer Intern (Remote)** · Kavya Infoweb Pvt. Ltd. · Mar 2026 – Aug 2026
+Built responsive React.js interfaces backed by Spring Boot and MySQL, and optimized database performance with indexing, stored procedures, and Redis caching.
 
----
-
-## 📄 Resume
-
-<a href="https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier_compressed.pdf">
-  <img src="https://img.icons8.com/color/48/000000/pdf-2.png" width="35" alt="View Resume"/>
-</a>
-
-## 🚀 Tech Stack
-
-### 💻 Programming Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native_(Expo)-20232A?style=for-the-badge&logo=expo&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### 🔧 Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![REST API](https://img.shields.io/badge/RESTful_API_Design-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT_Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-
-### 🗄️ Databases & Caching
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### 🛠️ Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![PenPot](https://img.shields.io/badge/PenPot-000000?style=for-the-badge&logo=penpot&logoColor=white)
-
-### 📋 Practices
-![Agile](https://img.shields.io/badge/Agile%2FScrum-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![PR Workflows](https://img.shields.io/badge/Pull_Request_Workflows-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Rate Limiting](https://img.shields.io/badge/API_Rate_Limiting-4A154B?style=for-the-badge)
-![System Design](https://img.shields.io/badge/System_Design-FF4B4B?style=for-the-badge)
+**Java Full Stack Developer Intern (Onsite)** · Angodigital Technologies Pvt. Ltd., Bangalore · Oct 2025 – Nov 2025
+Developed Spring Boot REST APIs and improved backend performance with Redis caching.
 
 ---
 
-## 🏆 Achievements
+## Selected Projects
 
-| 🎯 Achievement | Details |
+| Project | Description | Stack |
+|---|---|---|
+| [Patient Management System](https://github.com/Khageswar-M/Patient-Management-System) | Microservices system for records, billing, and analytics with JWT auth, API gateway, Kafka events, and gRPC. | Java, Spring Boot, React, Kafka, gRPC, Docker |
+| [Ninety](https://github.com/Khageswar-M/Ninety-project) | 90-day productivity tracker with goal lifecycle, streaks, and AI-generated insights. | Spring Boot, React Native, MySQL, Redis |
+| [NexusOps](https://github.com/Khageswar-M/NexusOps-fe) | Role-based team and task management platform with OTP verification and Redis caching. | Spring Boot, React, MySQL, Redis |
+
+---
+
+## Technical Skills
+
+| Area | Technologies |
 |---|---|
-| 🥇 Achivement | **3 Times Highest SGPA achiver** |
-| 🎓 CGPA | **8.5 / 10** |
-| 🏫 Academic Carrier| [All Semester Carrier](./academic/MyEnginerringCarrier.pdf)
-| 🧩 LeetCode | **250+ Problems Solved** |
-
+| Languages | Java, JavaScript, SQL, HTML5, CSS3 |
+| Frontend | React, React Native (Expo), Tailwind CSS, Bootstrap |
+| Backend | Spring Boot, REST API design, JWT authentication, API rate limiting, Microservices |
+| Data and Caching | MySQL, Redis, Kafka |
+| Tools | Git, GitHub, Docker, Maven, Postman, VS Code, IntelliJ IDEA, Penpot |
+| Practices | Agile/Scrum, pull request workflows, system design |
 
 ---
 
-## 📊 GitHub Stats
- 
+## Education
+
+**Aryan Institute of Engineering and Technology**, Bhubaneswar, Odisha
+B.Tech in Computer Science Engineering · CGPA 8.56 · Zero backlogs
+
+---
+
+## Achievements
+
+- Highest SGPA in college three times (top academic performer) · [Academic records](./academic/MyEnginerringCarrier.pdf)
+- 350+ problems solved on [LeetCode](https://leetcode.com/u/ok3/)
+- Typing speed of 107 WPM at 96% accuracy · [Test result](https://github.com/Khageswar-M/Khageswar-M/blob/main/assets/MonkeyTypeTest.png)
+
+---
+
+## Activity
+
 <div align="center">
 
-![GitHub Contribution Chart](https://ghchart.rshah.org/green/Khageswar-M)
+![GitHub contribution chart](https://ghchart.rshah.org/green/Khageswar-M)
+
+![LeetCode stats](https://leetcard.jacoblin.cool/ok3?theme=dark&ext=heatmap)
 
 </div>
 
 ---
 
-## 🧩 LeetCode Progress
+## Contact
 
-<div align="center">
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/ok3?theme=dark&font=Karma&ext=heatmap)
-
-</div>
-
-> 💡 *200+ problems solved and counting — consistency is the key!*
-
----
-
-## 🎓 Education
-
-🏫 **Aryan Institute of Engineering and Technology**
-📍 Bhubaneswar, Odisha
-🎓 B.Tech | CGPA: **8.5**
-🏆 **Zero Backlogs**
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khageswar-maharana-802a02349/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Khageswar-M)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ok3/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:khageswarmaharana462@gmail.com)
-
-</div>
-
----
-
-## ⌨️ Typing Speed
-
-![Typing Speed](https://img.shields.io/badge/Typing%20Speed-107%20WPM-blue?style=for-the-badge)
-![Accuracy](https://img.shields.io/badge/Accuracy-96%25-success?style=for-the-badge)
-![Alt text](https://github.com/Khageswar-M/Khageswar-M/blob/main/assets/MonkeyTypeTest.png)
-
-<div align="center">
-
-⭐ *If you like what I build, consider starring my repos!*
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Khageswar-M&color=blueviolet&style=for-the-badge)
-
-</div>
-
-
-
+Email: [khageswarmaharana462@gmail.com](mailto:khageswarmaharana462@gmail.com)
