@@ -1,248 +1,278 @@
-\documentclass[10pt,letterpaper]{article}
+%% =====================================================================
+%%  RESUME - Khageswar Maharana
+%% =====================================================================
+\documentclass[11pt,letterpaper]{article}
 
-\usepackage[
-  top=0.3in,
-  bottom=0.3in,
-  left=0.45in,
-  right=0.45in
-]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[hidelinks]{hyperref}
-\usepackage{enumitem}
+%% ---------------------------------------------------------------------
+%%  PACKAGES
+%% ---------------------------------------------------------------------
+\usepackage[top=0.34in,bottom=0.34in,left=0.45in,right=0.45in]{geometry}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{hyperref}   % keep last
+\usepackage{tfrupee}
 
+%% ---------------------------------------------------------------------
+%%  PAGE & LINK SETTINGS
+%% ---------------------------------------------------------------------
 \pagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0pt}
-\urlstyle{same}
+\raggedbottom
+\setstretch{1}
 
-\titleformat{\section}
-  {\large\bfseries}
-  {}
-  {0pt}
-  {}
-  [\vspace{-10pt}\rule{\linewidth}{0.35pt}]
-
-\titlespacing*{\section}{0pt}{5pt}{3pt}
-
-\setlist[itemize]{
-    leftmargin=15pt,
-    itemsep=1pt,
-    topsep=0pt,
-    parsep=0pt,
-    partopsep=0pt
+\definecolor{linkcolor}{HTML}{000000}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkcolor,
+    linkcolor=linkcolor
 }
 
-\newcommand{\resumeItem}[1]{\item\small{#1}}
+%% ---------------------------------------------------------------------
+%%  TYPE SCALE & SECTION STYLE (compact, ATS-friendly)
+%% ---------------------------------------------------------------------
+\titleformat{\section}{\fontsize{11.5}{13.5}\selectfont\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{2.5pt}{1.5pt}
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-0.1pt}
-  \textbf{#1} \hfill \textbf{#2}\\
-  \textit{#3} \hfill \textit{#4}\\[-2pt]
+%% ---------------------------------------------------------------------
+%%  LIST DEFAULTS
+%% ---------------------------------------------------------------------
+\setlist[itemize]{leftmargin=1.1em, itemsep=0.8pt, parsep=0pt, topsep=0.8pt, partopsep=0pt}
+
+% Justified bullet list used in Experience and Projects
+\newenvironment{resumeitems}{%
+    \begin{itemize}[
+        leftmargin=2em,
+        label=\textbullet,
+        labelsep=0.6em,
+        itemsep=0pt,
+        parsep=0pt,
+        topsep=0pt
+    ]
+    \justifying
+}{%
+    \end{itemize}%
 }
 
-\newcommand{\projectHeading}[5]{%
-    \textbf{#1}
-    \;|\;
-    \href{#2}{\faGithub\ GitHub}
-    \;|\;
-    \href{#3}{\faVideo\ Demo}
-    \;|\;
-    \href{#4}{\faExternalLinkAlt\ Live}
-    \\[-1pt]
-    {\fontsize{8.5pt}{9.5pt}\selectfont\textit{#5}}%
-    \vspace{2pt}
+%% ---------------------------------------------------------------------
+%%  CUSTOM COMMANDS
+%% ---------------------------------------------------------------------
+% Name + contact line
+\newcommand{\resumeHeader}[2]{
+    \begin{center}
+        {\fontsize{16}{19}\selectfont\bfseries #1} \\[2pt]
+        {\fontsize{9.5}{11.5}\selectfont #2}
+    \end{center}
 }
 
+% Bold title (left) + italic date/info (right)
+\newcommand{\entryHeader}[2]{
+    \noindent\textbf{#1} \hfill \textit{#2} \\
+}
+
+% Italic subtitle (left) + plain info (right)
+\newcommand{\entrySub}[2]{
+    \noindent\textit{#1} \hfill #2 \\
+}
+
+% Project title | Source Code link (left) + tech stack (right)
+\newcommand{\projectHeader}[3]{%
+    \entryHeader
+        {\textnormal{\textbf{#1} $|$ \href{#2}{\textit{Source Code}}}}
+        {\textbf{#3}}%
+}
+
+% Lucide "link-2" icon redrawn in TikZ (24x24 grid, about 1em)
+\newcommand{\linkicon}{%
+    \begin{tikzpicture}[x=0.04em, y=0.04em, line width=0.08em,
+                        line cap=round, line join=round, baseline=0pt]
+        \draw (9,7) -- (7,7) arc[start angle=-90, delta angle=-180, radius=5] -- (9,17);
+        \draw (15,17) -- (17,17) arc[start angle=90, delta angle=-180, radius=5] -- (15,7);
+        \draw (8,12) -- (16,12);
+    \end{tikzpicture}%
+}
+
+% Achievement cell: black dot + text + clickable link icon
+% Usage: \achv{text}{url}
+\newcommand{\achv}[2]{%
+    \begin{itemize}[leftmargin=1em, label=\textbullet, labelsep=0.4em, nosep]
+        \item #1\ \href{#2}{\linkicon}
+    \end{itemize}%
+}
+
+%% =====================================================================
+%%  DOCUMENT
+%% =====================================================================
 \begin{document}
 
-%==================== HEADER ====================
-
-\begin{center}
-
-    {\LARGE \textbf{KHAGESWAR MAHARANA}}\\[1pt]
-
-    {\large \textbf{Java Full Stack Developer}}\\[1pt]
-
-    {\small
-    Bhubaneswar, Odisha, India
-    \;|\;
-    8260532020
-    \;|\;
-    \href{mailto:khageswarmaharana462@gmail.com}
-    {khageswarmaharana462@gmail.com}
-    \;|\;
-    \href{https://www.linkedin.com/in/khageswar}
-    {LinkedIn}
-    \;|\;
-    \href{https://github.com/Khageswar-M}
-    {GitHub}
-    }
-
-\end{center}
-
-
-%==================== SUMMARY ====================
-
-\section{PROFESSIONAL SUMMARY}
-
-\small
-Java Full Stack Developer with hands-on experience building \textbf{REST APIs}, \textbf{React.js}/\textbf{React Native} interfaces, and \textbf{Spring Boot} backends, including a completed Java Full Stack Engineering internship. Skilled in \textbf{full stack web and mobile development}, \textbf{database design}, \textbf{API integration}, and \textbf{Agile} collaboration. A disciplined, self-driven learner who studies concepts through free resources and applies them immediately through production-style projects. Also designs UI/UX using \textbf{Penpot}, an open-source tool, bringing a strong usability sense to development work.
-
-
-%==================== SKILLS ====================
-
-\section{TECHNICAL SKILLS}
-
-\small
-\textbf{Languages:}
-Java (17/21), JavaScript (ES6+), SQL
-
-\textbf{Backend:}
-Spring Boot, Spring MVC, Spring Security, Spring Data JPA, REST APIs, Microservices, Maven, Hibernate
-
-\textbf{Frontend:}
-React.js, React Native (Expo SDK 54), Redux, HTML5, CSS3,
-Tailwind CSS, Bootstrap, Axios, Responsive Web Design
-
-\textbf{Databases \& Performance:}
-MySQL, Redis, Caching,
-Rate Limiting (Bucket4j), JMeter
-
-\textbf{Cloud \& DevOps:}
-AWS (EC2, RDS, S3), Docker, Git, GitHub, Version Control
-
-\textbf{Testing \& Practices:}
-JUnit, Mockito, Postman, Swagger, Unit Testing, Agile, SDLC, OOP, Ubuntu
-
-
-%==================== EXPERIENCE ====================
-
-\section{EXPERIENCE}
-
-\resumeSubheading
-{\href{https://www.angodigitaltech.com/}{Angodigital Technologies Pvt. Ltd.}}
-{Oct 2025 -- Nov 2025}
-{Java Full Stack Engineer Intern}
-{Bangalore, ITPL -- Onsite}
-
-\begin{itemize}
-
-  \resumeItem{
-  Developed an \textbf{enterprise web application} from scratch as part of a team using \textbf{React.js} and \textbf{GitHub} for collaborative version control. Converted \textbf{Figma} designs into \textbf{responsive}, cross-browser user interfaces and implemented them as functional application screens.
-  }
-
-  \resumeItem{
-  Built an Authenticator \textbf{mobile application} using \textbf{React Native (Expo)}, including \textbf{file-based routing} and navigation.
-  }
-
-  \resumeItem{
-  Contributed to backend development using \textbf{Spring Boot}, building versioned \textbf{REST APIs} with \textbf{JWT authentication}. Optimized \textbf{MySQL} operations using indexes, stored procedures, and triggers, and implemented \textbf{Redis caching} with \textbf{Docker} to reduce redundant database calls.
-  }
-
-  \resumeItem{
-  Collaborated with the team following \textbf{Agile/Scrum} software development methodology throughout the development lifecycle, tracking work using \textbf{Jira}.
-  }
-
-\end{itemize}
-
-\vspace{2pt}
-
-%==================== PROJECTS ====================
-
-\section{PROJECTS}
-
-\projectHeading
-{NexusOps}
-{https://github.com/Khageswar-M/NexusOps}
-{https://your-demo-link.com}
-{https://your-live-link.com}
-{\textbf{React.js}, \textbf{Tailwind CSS}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Spring Security}, \textbf{Docker}, \textbf{Vercel}, \textbf{Render}, \textbf{Supabase}, Ubuntu}
-
-\begin{itemize}
-
-  \resumeItem{
-  Built a full stack \textbf{team management application} with \textbf{role-based access control (RBAC)}, enabling admins to assign tasks and monitor employee work status through a graph-based analytics \textbf{dashboard}.
-  }
-
-  \resumeItem{
-  Built a \textbf{responsive UI} using \textbf{React.js} and \textbf{Tailwind CSS}, with a clean interface based on \textbf{Google Material icons}.
-  }
-
-  \resumeItem{
-  Developed the backend using a \textbf{Spring Boot} 7-layer architecture -- \textbf{Controller}, \textbf{DTO}, \textbf{Service}, \textbf{Repository}, \textbf{Entity}, \textbf{Configuration}, and \textbf{Exception Handling} -- with versioned, documented \textbf{REST APIs}, \textbf{OTP}-based authentication, and \textbf{JWT}-based authorization.
-  }
-
-  \resumeItem{
-  Implemented \textbf{Redis caching} with \textbf{Docker} to reduce frequent database calls and integrated \textbf{Brevo} for transactional email messaging.
-  }
-
-\end{itemize}
-\vspace{2pt}
-
-
-\projectHeading
-{Ninety -- Productive Day Tracker}
-{https://github.com/Khageswar-M/Ninety}
-{https://your-demo-link.com}
-{https://your-live-link.com}
-{\textbf{React Native (Expo)}, \textbf{Spring Boot}, \textbf{MySQL}, \textbf{Redis}, \textbf{OpenAI API}, \textbf{Docker}, Ubuntu}
-
-\begin{itemize}
-
-  \resumeItem{
-  Built a \textbf{cross-platform mobile application} with \textbf{React Native (Expo SDK 54)}, designed around a 90-day productivity challenge tracker.
-  }
-
-  \resumeItem{
-  Independently designed the application \textbf{UI/UX} using \textbf{Penpot} and implemented it as a \textbf{responsive, dynamic mobile interface}.
-  }
-
-  \resumeItem{
-  Developed the backend using \textbf{Spring Boot} with a 7-layer architecture, implementing \textbf{JWT authorization}, \textbf{OTP verification}, versioned \textbf{REST APIs} with \textbf{Swagger} documentation, and \textbf{Bucket4j} for \textbf{API rate limiting}.
-  }
-
-  \resumeItem{
-  Integrated \textbf{Resend} for transactional email messaging and \textbf{Redis caching} with \textbf{Docker} to reduce unnecessary database calls. Implemented \textbf{Expo Push Notifications} and an \textbf{OpenAI LLM}-based daily review system that generates productivity insights and motivational feedback to help users stay consistent with their goals.
-  }
-
-\end{itemize}
-
-
-%==================== EDUCATION ====================
-
-\section{EDUCATION}
-
-\resumeSubheading
-{Aryan Institute of Engineering \& Technology, Bhubaneswar}
-{Nov 2022 -- May 2026}
-{Bachelor of Technology in Computer Science}
-{\textbf{CGPA: 8.56}}
-
-
-%==================== ACHIEVEMENTS ====================
-
-\section{ACHIEVEMENTS}
-
-\begin{itemize}
-
-  \resumeItem{
-  Solved \textbf{250+ Data Structures and Algorithms (DSA) problems}
-  on \textbf{LeetCode}.  \href{https://leetcode.com/u/ok3/}{\textbf{[Profile]}}
+%% ---------- HEADER ----------
+\resumeHeader
+{Khageswar Maharana}
+{Bhubaneswar, Odisha, India $|$
+\href{tel:+918260532020}{8260532020} $|$
+\href{mailto:khageswarmaharana462@gmail.com}{khageswarmaharana462@gmail.com} $|$
+\href{https://www.linkedin.com/in/khageswar-maharana-802a02349/}{LinkedIn/Khageswar} $|$
+\href{https://github.com/Khageswar-M}{GitHub/Khageswar-M}
 }
 
-  \resumeItem{
-  Achieved the \textbf{highest SGPA in 3 semesters} with a strong
-  academic record and \textbf{zero backlogs}.
-  \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier.pdf}{\textbf{[Academic Records]}}
+\vspace{-7pt}
+
+%% ---------- EDUCATION ----------
+\section*{EDUCATION}
+\vspace{3pt}
+\entryHeader{Aryan Institute of Engineering and Technology}{\textbf{Nov 2022 -- May 2026}}
+\entrySub{Bachelor of Computer Science Engineering $|$ Recognized for academic performance}{CGPA 8.56}
+
+\vspace{-10pt}
+
+%% ---------- WORK EXPERIENCE ----------
+\section*{WORK EXPERIENCE}
+\vspace{3pt}
+
+% --- Angodigital Technologies ---
+\entryHeader{\href{https://www.angodigitaltech.com/}{Angodigital Technologies Pvt. Ltd.}}{\textbf{Oct 2025 -- Nov 2025}}
+\noindent\makebox[\textwidth][l]{%
+    \textit{Java Full Stack Developer Intern (Onsite) -
+    \href{https://neopoulx.in/}{Live Project} -
+    \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/offers/Angodigital_Pvt_Ltd.png}
+    {\textbf{\footnotesize [Joining Letter]}}
+    \hfill
+    Bangalore, Karnataka}%
 }
 
-  \resumeItem{
-  Attended international conference on \textbf{Computational Intelligence, Communication and Data Analytics}.
-  \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/cirtification/ComputationalIntelligence.jpg}{\textbf{[Certificate]}}
+\begin{resumeitems}
+    \item Optimized DB performance using \textbf{Redis caching}, reducing database load by \textbf{30\%}, improving API response times by \textbf{20\%}, and lowering monthly AWS database costs from \textbf{\rupee 6000} to \textbf{\rupee 3500} for 3k+ active users.
+
+    \item Implemented \textbf{10+ REST APIs} with \textbf{Spring Boot}, integrating \textbf{pagination}, request validation, and structured error handling to improve data retrieval efficiency.
+\end{resumeitems}
+
+\vspace{3pt}
+
+% --- Kavya Infoweb ---
+\entryHeader{\href{https://kavyainfoweb.com/}{Kavya Infoweb Pvt. Ltd.}}{\textbf{Mar 2026 -- Aug 2026}}
+\noindent\makebox[\textwidth][l]{%
+    \textit{Full Stack Developer Intern (Remote)} -
+    \href{https://shivayinteriors.com/}{\textit{Live Project}} -
+    \href{https://github.com/Khageswar-M/Khageswar-M/blob/main/offers/Kavya_Infoweb_Pvt_Ltd.pdf}
+    {\textbf{\footnotesize [Joining Letter]}}
+    \hfill
+    \textit{Pune, Maharashtra}%
 }
 
-\end{itemize}
+\begin{resumeitems}
+    \item Trained in \textbf{React.js, Bootstrap, Spring Boot, and MySQL}, building responsive UIs with \textbf{lazy loading, code splitting and Cloudinary}, improving startup time by \textbf{30\%}.
+
+    \item Optimized DB performance via \textbf{indexing} and Redis \textbf{staggered expiration} caching, boosting speed by \textbf{20\%}, reducing load by \textbf{40\%}, and lowering costs from \textbf{\rupee 15000 to \rupee 6000} per month for \textbf{5k+} active users.
+\end{resumeitems}
+
+\vspace{3pt}
+
+%% ---------- PROJECTS ----------
+\section*{PROJECTS}
+\vspace{3pt}
+
+% --- Patient Management System ---
+\projectHeader
+    {Patient Management System}
+    {https://github.com/Khageswar-M/Patient-Management-System}
+    {Spring Boot $|$ React.js $|$ MySQL}
+
+\vspace{-10pt}
+
+\begin{resumeitems}
+    \item Architected a \textbf{microservices} Patient Management System using Java 21, Spring Boot 4, React.js for records, billing, and analytics, featuring a \textbf{JWT} \textbf{Auth Service} and a centralized \textbf{Spring Cloud Gateway}.
+
+    \item Built event-driven workflows via \textbf{Kafka} with independent billing/analytics consumers, \textbf{gRPC} with \textbf{Protocol Buffers} for inter-service communication, and \textbf{Dockerized} MySQL and Kafka on an \textbf{internal network}.
+
+    \item Monorepo structured with \textbf{Docker Compose}. Load tested via \textbf{Grafana k6}, cutting failures from \textbf{50.28\%} to \textbf{0\%} at \textbf{100 VUs} via compression, and stress-tested up to \textbf{800 VUs} on \textbf{1 CPU} and \textbf{1 GB RAM}.
+\end{resumeitems}
+
+\vspace{5pt}
+
+% --- Ninety - Productivity Tracker ---
+\projectHeader
+    {Ninety - Productivity Tracker}
+    {https://github.com/Khageswar-M/Ninety-project}
+    {Spring Boot $|$ React Native $|$ MySQL $|$ Gemini AI}
+
+\vspace{-10pt}
+
+\begin{resumeitems}
+    \item Built \textbf{Ninety}, a 90-day productivity app using Java 21, Spring Boot, React Native Expo \textbf{SDK 57}, MySQL featuring a \textbf{10$\times$9 activity matrix}, goal lifecycle, streak tracking, and \textbf{Google Gemini} via \textbf{Spring AI} for personalized insights, progress reviews, and motivational content.
+
+    \item Secured APIs via \textbf{Spring Security and JWT} with IP- and endpoint-specific rate limiting at a \textbf{100 requests/second} global cap, integrating \textbf{Resend} for email authentication and \textbf{Redis} to cut MySQL workload.
+
+    \item Deployed the Dockerized backend on \textbf{Render} using a \textbf{1 GB Aiven MySQL cloud instance} for persistence.
+\end{resumeitems}
+
+\vspace{5pt}
+
+% --- NexusOps ---
+\projectHeader
+    {NexusOps}
+    {https://github.com/Khageswar-M/NexusOps-fe}
+    {Spring Boot $|$ React.js $|$ MySQL $|$ Redis}
+
+\vspace{-10pt}
+
+\begin{resumeitems}
+    \item Built a role-based team management system using \textbf{Java 17, Spring Boot 3, React.js} for admins, managers, team leads, and employees covering team, role, and daily task management, activity, and task monitoring.
+
+    \item Implemented \textbf{Spring Security, JWT, and Resend API OTP verification} for role-sensitive security, integrating \textbf{Upstash Redis caching} to boost data retrieval speed by \textbf{30\%} and cut database load by \textbf{25\%}.
+
+    \item Built a responsive interface via \textbf{React.js and Tailwind CSS} with a decoupled architecture, deploying the frontend on \textbf{Vercel} and the containerized backend on \textbf{Render} via \textbf{Docker} and Aiven free \textbf{MySQL} instance.
+\end{resumeitems}
+
+\vspace{3pt}
+
+%% ---------- TECHNICAL SKILLS ----------
+\section*{TECHNICAL SKILLS}
+\vspace{3pt}
+
+\begin{list}{}{%
+    \leftmargin=1em
+    \itemsep=0.4pt
+    \parsep=0pt
+    \topsep=0pt
+}
+    \item[] \textbf{Languages:} Core Java, JavaScript (ES6+), SQL, HTML5, CSS3
+    \item[] \textbf{Developer Tools:} Git/GitHub, Docker, Maven, CI/CD, MySQL, Redis, Kafka, REST APIs, Microservices
+    \item[] \textbf{Libraries / Frameworks:} Spring Boot, JPA/Hibernate, React.js, React Native (Expo), Tailwind CSS, Bootstrap, JUnit 5, Mockito, Rest Assured, gRPC
+\end{list}
+
+\vspace{3pt}
+
+%% ---------- ACHIEVEMENTS ----------
+\section*{ACHIEVEMENTS}
+
+\noindent
+\begin{tabularx}{\linewidth}{@{\hspace{1em}} *{3}{>{\RaggedRight\arraybackslash}X} @{}}
+    \achv
+        {LeetCode 350+}
+        {https://leetcode.com/u/ok3/}
+        
+  & \achv
+        {AWS Certified}
+        {https://your-link-here}
+        
+  & \achv
+        {Academic Merit}
+        {https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier_compressed.pdf} \\[6pt]
+        
+    \achv
+        {Docker Certified}
+        {https://github.com/Khageswar-M/Khageswar-M/blob/main/cirtification/Docker-Certification.pdf}
+        
+  & \achv
+        {Java Full Stack Certified}
+        {https://github.com/Khageswar-M/Khageswar-M/blob/main/cirtification/Java-Full-Stack-Certification.pdf}
+        
+  & \achv
+        {100k+ LinkedIn Impressions}
+        {https://www.linkedin.com/in/khageswar-maharana-802a02349/} \\
+\end{tabularx}
 
 \end{document}
