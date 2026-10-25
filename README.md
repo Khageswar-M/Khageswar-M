@@ -1,73 +1,113 @@
-# Khageswar Maharana
-
-**Full Stack Developer** · Java, Spring Boot, React · Bhubaneswar, Odisha, India
-
-I build backend-heavy web and mobile applications with Java and Spring Boot, paired with React and React Native frontends. I care about clean APIs, sensible caching, and measurable performance. I'm currently looking for fresher / entry-level developer roles.
-
-[LinkedIn](https://www.linkedin.com/in/khageswar-maharana-802a02349/) · [Email](mailto:khageswarmaharana462@gmail.com) · [LeetCode](https://leetcode.com/u/ok3/) · [Resume](https://github.com/Khageswar-M/Khageswar-M/blob/main/academic/MyEnginerringCarrier_compressed.pdf)
-
----
-
-## Experience
-
-**Full Stack Developer Intern (Remote)** · Kavya Infoweb Pvt. Ltd. · Mar 2026 – Aug 2026
-Built responsive React.js interfaces backed by Spring Boot and MySQL, and optimized database performance with indexing, stored procedures, and Redis caching.
-
-**Java Full Stack Developer Intern (Onsite)** · Angodigital Technologies Pvt. Ltd., Bangalore · Oct 2025 – Nov 2025
-Developed Spring Boot REST APIs and improved backend performance with Redis caching.
-
----
-
-## Selected Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| [Patient Management System](https://github.com/Khageswar-M/Patient-Management-System) | Microservices system for records, billing, and analytics with JWT auth, API gateway, Kafka events, and gRPC. | Java, Spring Boot, React, Kafka, gRPC, Docker |
-| [Ninety](https://github.com/Khageswar-M/Ninety-project) | 90-day productivity tracker with goal lifecycle, streaks, and AI-generated insights. | Spring Boot, React Native, MySQL, Redis |
-| [NexusOps](https://github.com/Khageswar-M/NexusOps-fe) | Role-based team and task management platform with OTP verification and Redis caching. | Spring Boot, React, MySQL, Redis |
-
----
-
-## Technical Skills
-
-| Area | Technologies |
-|---|---|
-| Languages | Java, JavaScript, SQL, HTML5, CSS3 |
-| Frontend | React, React Native (Expo), Tailwind CSS, Bootstrap |
-| Backend | Spring Boot, REST API design, JWT authentication, API rate limiting, Microservices |
-| Data and Caching | MySQL, Redis, Kafka |
-| Tools | Git, GitHub, Docker, Maven, Postman, VS Code, IntelliJ IDEA, Penpot |
-| Practices | Agile/Scrum, pull request workflows, system design |
-
----
-
-## Education
-
-**Aryan Institute of Engineering and Technology**, Bhubaneswar, Odisha
-B.Tech in Computer Science Engineering · CGPA 8.56 · Zero backlogs
-
----
-
-## Achievements
-
-- Highest SGPA in college three times (top academic performer) · [Academic records](./academic/MyEnginerringCarrier.pdf)
-- 350+ problems solved on [LeetCode](https://leetcode.com/u/ok3/)
-- Typing speed of 107 WPM at 96% accuracy · [Test result](https://github.com/Khageswar-M/Khageswar-M/blob/main/assets/MonkeyTypeTest.png)
-
----
-
-## Activity
-
 <div align="center">
 
-![GitHub contribution chart](https://ghchart.rshah.org/green/Khageswar-M)
+# Khageswar Maharana
 
-![LeetCode stats](https://leetcard.jacoblin.cool/ok3?theme=dark&ext=heatmap)
+**Software Engineer | Java & Spring Boot Developer**
+
+Building reliable backend systems and practical full-stack applications.
+
+<p>
+  <a href="https://github.com/Khageswar-M">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/khageswar-maharana-802a02349/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/ok3/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
+## About Me
+
+I'm a Computer Science graduate focused on Java backend development and full-stack engineering. I enjoy designing REST APIs, working with databases, exploring distributed systems, and building applications that solve practical problems.
+
+- **Primary Language:** Java
+- **Backend:** Spring Boot, Spring Security, REST APIs
+- **Frontend:** React.js, JavaScript, HTML, CSS
+- **Databases:** MySQL, Redis, MongoDB
+- **Tools & Technologies:** Git, Docker, Apache Kafka
+- **Problem Solving:** 200+ problems solved
+- **Academic Record:** 8.56 CGPA | Zero backlogs
+
+## Technical Skills
+
+**Languages**
+
+`Java` `JavaScript` `SQL`
+
+**Backend Development**
+
+`Spring Boot` `Spring Security` `Hibernate` `JPA` `REST APIs` `Microservices`
+
+**Frontend Development**
+
+`React.js` `HTML5` `CSS3`
+
+**Databases & Messaging**
+
+`MySQL` `MongoDB` `Redis` `Apache Kafka`
+
+**Tools & Platforms**
+
+`Git` `GitHub` `Docker` `Maven` `Postman`
+
+## Featured Projects
+
+### Ninety — AI-Powered Productivity Tracker
+
+A productivity application designed to help users plan, track, and improve their progress over 90-day periods.
+
+**Tech Stack:** Java, Spring Boot, Spring AI, Spring Security, MySQL, Redis, React Native, Docker
+
+### Full-Stack Web Applications
+
+Developing full-stack applications with Java-based backend services, REST APIs, database integration, and modern frontend interfaces.
+
+**Tech Stack:** Spring Boot, React.js, MySQL, JavaScript
+
+> Explore my repositories for source code, implementation details, and project documentation.
+
+## Education
+
+**B.Tech in Computer Science and Engineering**  
+Aryan Institute of Engineering and Technology, Bhubaneswar, Odisha
+
+**CGPA:** 8.56/10  
+**Academic Record:** Zero backlogs
+
+## Problem Solving
+
+Consistent practice in data structures, algorithms, and programming challenges to strengthen problem-solving and analytical skills.
+
+**200+ problems solved and counting.**
+
+## Typing Performance
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Typing%20Speed-107%20WPM-2563EB?style=flat-square" alt="Typing Speed"/>
+  <img src="https://img.shields.io/badge/Accuracy-96%25-15803D?style=flat-square" alt="Typing Accuracy"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Khageswar-M/Khageswar-M/blob/main/assets/MonkeyTypeTest.png" width="600" alt="Typing test results"/>
+</p>
+
 ## Contact
 
-Email: [khageswarmaharana462@gmail.com](mailto:khageswarmaharana462@gmail.com)
+- **Email:** [khageswarmaharana462@gmail.com](mailto:khageswarmaharana462@gmail.com)
+- **LinkedIn:** [Khageswar Maharana](https://www.linkedin.com/in/khageswar-maharana-802a02349/)
+- **GitHub:** [Khageswar-M](https://github.com/Khageswar-M)
+- **LeetCode:** [ok3](https://leetcode.com/u/ok3/)
+
+---
+
+<div align="center">
+  <sub>Building consistently. Learning continuously. Improving through practice.</sub>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=Khageswar-M&color=64748b&style=flat-square&label=Profile+Views" alt="Profile views"/>
+</div>
